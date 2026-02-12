@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dhanusha | Portfolio</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">Dhanusha</div>
+    <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<section class="hero">
+    <div class="hero-text">
+        <h1 class="reveal">Hi, I'm Dhanusha 👋</h1>
+        <h2 class="reveal">MERN Stack Learner & Former Accenture Intern</h2>
+        <p class="reveal">
+            Electronics and Communication Engineering student passionate about 
+            building clean, responsive and scalable web applications.
+        </p>
+
+        <div class="hero-buttons reveal">
+            <a href="#projects" class="btn">View Projects</a>
+            <a href="#contact" class="btn-outline">Contact Me</a>
+        </div>
+    </div>
+
+    <div class="hero-image reveal">
+        <img src="profile copy.jpeg" alt="Profile Photo">
+    </div>
+</section>
+
+<section id="about" class="section reveal">
+    <h2>About Me</h2>
+    <p>
+        Currently learning MERN stack and improving frontend development 
+        skills using HTML and CSS. Interested in full stack development 
+        and modern web technologies.
+    </p>
+</section>
+
+<section id="experience" class="section reveal">
+    <h2>Experience</h2>
+
+    <div class="item">
+        <h3>Full Stack Web Development Intern – Suprmentor</h3>
+        <p>Learning MERN stack, Git, and client-server architecture.</p>
+    </div>
+
+    <div class="item">
+        <h3>Associate Software Engineer Intern – Accenture</h3>
+        <p>Worked on Android development using Kotlin & Jetpack Compose.</p>
+    </div>
+</section>
+
+<section id="projects" class="section reveal">
+    <h2>Projects</h2>
+
+    <div class="item">
+        <h3>Smart Bus Identification System</h3>
+        <p>RFID-based accessibility solution for visually impaired individuals.</p>
+    </div>
+
+    <div class="item">
+        <h3>Water Pollution Monitoring System</h3>
+        <p>IoT robotic monitoring system using ESP32.</p>
+    </div>
+</section>
+
+<section id="contact" class="section reveal">
+    <h2>Contact</h2>
+    <p>
+        <a href="https://github.com/" target="_blank">GitHub</a> |
+        <a href="https://linkedin.com/" target="_blank">LinkedIn</a>
+    </p>
+</section>
+
+<script>
+    // Scroll reveal animation
+    function revealOnScroll() {
+        const reveals = document.querySelectorAll('.reveal');
+        for (let i = 0; i < reveals.length; i++) {
+            const windowHeight = window.innerHeight;
+            const elementTop = reveals[i].getBoundingClientRect().top;
+            const elementVisible = 100;
+
+            if (elementTop < windowHeight - elementVisible) {
+                reveals[i].classList.add("active");
+            }
+        }
+    }
+
+    window.addEventListener("scroll", revealOnScroll);
+</script>
+
+</body>
+</html>

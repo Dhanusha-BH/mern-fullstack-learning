@@ -5,3 +5,4 @@ This repository contains my learning work and assignments during my MERN Full St
 ## HTML
 - Resume Webpage (basic HTML)
 - HTML page explaining client–server architecture
+- Personal Profile Webpage 
