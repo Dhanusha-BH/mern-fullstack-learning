@@ -5,3 +5,11 @@ This repository contains my learning work and assignments during my MERN Full St
 ## HTML
 - Resume Webpage (basic HTML)
 - HTML page explaining client–serv
+
+## 🌐 Live Projects
+
+🔹 Visiting Card  
+👉 https://dhanusha-bh.github.io/mern-fullstack-learning/visiting_card/
+
+🔹 Portfolio  
+👉 https://dhanusha-bh.github.io/mern-fullstack-learning/portfolio/
