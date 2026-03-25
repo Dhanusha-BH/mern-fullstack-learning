@@ -13,3 +13,7 @@ This repository contains my learning work and assignments during my MERN Full St
 
 🔹 Portfolio  
 👉 https://dhanusha-bh.github.io/mern-fullstack-learning/portfolio/
+
+
+ 📚 Study Planner  
+ 👉 https://dhanusha-bh.github.io/mern-fullstack-learning/study-planner/
