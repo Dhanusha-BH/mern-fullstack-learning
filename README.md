@@ -15,8 +15,8 @@ This repository contains my learning work and assignments during my MERN Full St
 👉 https://dhanusha-bh.github.io/mern-fullstack-learning/portfolio/
 
 
- 📚 Study Planner  
- 👉 https://dhanusha-bh.github.io/mern-fullstack-learning/study-planner/
+📚 Study Planner  
+👉 https://dhanusha-bh.github.io/mern-fullstack-learning/study-planner/
 
- - 📱 Responsive Hero Page  
-  👉 https://dhanusha-bh.github.io/mern-fullstack-learning/responsive_hero/
+📱 Responsive Hero Page  
+👉 https://dhanusha-bh.github.io/mern-fullstack-learning/responsive_hero/
