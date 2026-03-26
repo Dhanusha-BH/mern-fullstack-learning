@@ -1,0 +1,58 @@
+/* Reset */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    padding: 20px;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+}
+
+/* Text */
+.hero-text {
+    max-width: 600px;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    color: #333;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    color: #555;
+}
+
+/* Button */
+.btn {
+    text-decoration: none;
+    background: #ff7e5f;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #ff9a76;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero-text h1 {
+        font-size: 2rem;
+    }
+
+    .hero-text p {
+        font-size: 1rem;
+    }
+}
