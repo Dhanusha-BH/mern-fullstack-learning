@@ -23,3 +23,6 @@ This repository contains my learning work and assignments during my MERN Full St
 
 🧮 Console Challenge  
 👉 https://dhanusha-bh.github.io/mern-fullstack-learning/console-challenge/
+
+🎓 Student Manager  
+👉 https://dhanusha-bh.github.io/mern-fullstack-learning/student-manager/
