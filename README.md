@@ -20,3 +20,6 @@ This repository contains my learning work and assignments during my MERN Full St
 
 📱 Responsive Hero Page  
 👉 https://dhanusha-bh.github.io/mern-fullstack-learning/responsive_hero/
+
+🧮 Console Challenge
+👉 https://dhanusha-bh.github.io/mern-fullstack-learning/console-challenge/
