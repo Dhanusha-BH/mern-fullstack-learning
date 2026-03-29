@@ -29,3 +29,6 @@ This repository contains my learning work and assignments during my MERN Full St
 
 📝 Interactive Form  
 👉 https://dhanusha-bh.github.io/mern-fullstack-learning/interactive-form/
+
+🧩 Component Hunt (Netflix Breakdown)  
+👉 https://github.com/dhanusha-bh/mern-fullstack-learning/tree/main/component-hunt
